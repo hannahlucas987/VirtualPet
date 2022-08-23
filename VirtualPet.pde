@@ -6,10 +6,8 @@ void setup(){
 void draw(){
   fill(193, 193, 193);
   ellipse(250, 80, 50, 60);
-  int headX = 200;
-  int headY = 140;
-  int headSize = 150
-  ellipse(headX, headY, headSize, headSize);
+ 
+  ellipse(200, 140, 150, 150);
 
 }
 
@@ -19,5 +17,9 @@ point(mouseX, mouseY);
 
 System.out.print(mouseX);
 System.out.print(mouseY);
+
+ int headX = 200;
+  int headY = 140;
+  int headSize = 150
 */
 
