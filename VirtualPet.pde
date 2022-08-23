@@ -10,7 +10,9 @@ void setup(){
 void draw(){
   fill(193, 193, 193);
   ellipse(250, 80, 50, 60);
-
+  int headX = 200;
+  int headY = 140;
+  int headSize = 150
   ellipse(headX, headY, headSize, headSize);
 
 }
