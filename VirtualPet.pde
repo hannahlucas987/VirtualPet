@@ -2,10 +2,6 @@
 void setup(){
   size(400, 400);
   background(255, 255, 255);
-
-  int headX = 200;
-  int headY = 140;
-  int headSize = 150
 }
 void draw(){
   fill(193, 193, 193);
