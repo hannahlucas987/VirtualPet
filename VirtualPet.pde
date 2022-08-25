@@ -7,12 +7,14 @@ void setup(){
 void draw(){
 noStroke();
 fill(193, 193, 193);
-ellipse(250, 80, 50, 60); //right ear
-ellipse(150, 80, 50, 60); //left ear
+int earX = 260;
+int earY = 90;
+ellipse(earX, earY, 50, 60); //right ear
+ellipse(earX - 120, earY, 50, 60); //left ear
 
 fill(240, 114, 144);
-ellipse(250, 80, 35, 42); //inside right ear
-ellipse(150, 80, 35, 42);  //inside left ear
+ellipse(earX, earY, 35, 42); //inside right ear
+ellipse(earX - 120, earY, 35, 42);  //inside left ear
 
 fill(193, 193, 193);
 ellipse(200, 140, 150, 150); //head
