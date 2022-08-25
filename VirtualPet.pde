@@ -46,7 +46,7 @@ arc(squareXL + starSize, squareYL + starSize, starSize, starSize, PI, 3*PI/2); /
 
 int squareXR = squareXL + 60;
 fill(255,255,255);
-square(squareXR, squareYL, starSize, starSize); //left eye star base
+rect(squareXR, squareYL, starSize, starSize); //left eye star base
 
 fill(0, 0, 0);
 arc(squareXR, squareYL, starSize, starSize, 0, PI/2); //right eye star upper left
